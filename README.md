@@ -49,7 +49,7 @@ Un primer análisis de las variables por medio de una amtriz de correlación mue
 
 | Matriz de correlación      | Matriz de correlación con coeficientes |
 | ----------- | ----------- |
-| ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_Rplot0.pdf) | ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_Rplot01.pdf)|
+| ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_rplot-01.png?raw=true) | ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_rplot-02.png?raw=true)|
 
 ## Código
 Las gráficas y mapas fueron elaboradas en RStudio. 
