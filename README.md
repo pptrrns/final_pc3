@@ -28,12 +28,17 @@ Para la medición de la capacidad estatal a nivel subnacional propongo tomar com
 * ``p15ymas.se`` : 
 * ``ocupada.ss``: Proporción de población afiliada a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra) y que 
 
-Proporción de población alfabetizada mayor de 15 años ``P15YM_AN``/``P_15YMAS`` y `` P15YM_SE``/``P_15YMAS`` )
-``PDER_SS``/ ``POCUPADA``
+* Todas la variables están ponderadas a nivel municipal.
 
 *Notas*: Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva.
 
 En la selección de las variables de capacidad estal pretendo aproximar una medida que evite tomar como causa aquello  que busco explicar, ya que eso presupone una relación directa entre los productos y los *outcomes* (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar; sin embargo, es posible que con las variables de extracción este objetivo no se cumpla completamente.
+
+P15YM_AN
+P_15YMAS
+P15YM_SE
+P_15YMAS
+POCUPADA
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
@@ -43,11 +48,17 @@ Para la medición de los niveles de pobreza, bienestar y carencias sociales prop
 * ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal.
 * ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal.
 
-## Análisis de las variables propuestas
+* Todas la variables están ponderadas a nivel municipal.
 
+## Análisis de las variables propuestas
+Un primer análisis de las variables por medio de una amtriz de correlación muestra que, contrario a lo que se esperaba, las variables ``personal.mu``, ``solicitudes.mu``, ``di.urb`` y ``ocupada.ss`` no se ecuentran relacionadas con los niveles de bienestar, pobreza y carencias sociales.
 
 ## Código
-Las gráficas y mapas fueron elaboradas en RStudio. Se puede descargar el código dándo click [aquí]()
+Las gráficas y mapas fueron elaboradas en RStudio. 
+Se puede descargar el código dándo click [aquí]()
+
+## Mapas dinámicos
+Elabore en Carto.DB tres mapas dinámicos (*choropleth map*) en los que mapeo las variables ``mean.rwi``, ``pobreza.mu`` y ``carencias.mu``. En ellos se ve a nivel geográfico la relación entre dichas variables. Se pueden consultar dando click [aquí](https://torrens.carto.com/builder/bd969ec4-292a-426f-99ff-22c2379f0f79/embed)
 
 ## Bibliografía
 
