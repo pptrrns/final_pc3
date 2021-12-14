@@ -45,7 +45,7 @@ Para la medición de los niveles de pobreza, bienestar y carencias sociales prop
 * Todas la variables están ponderadas a nivel municipal.
 
 ## Análisis de las variables propuestas
-Un primer análisis de las variables por medio de una amtriz de correlación muestra que, contrario a lo que se esperaba, las variables ``personal.mu``, ``solicitudes.mu``, ``di.urb`` y ``ocupada.ss`` no se ecuentran relacionadas con los niveles de bienestar, pobreza y carencias sociales.
+Un primer análisis de las variables por medio de una matriz de correlación muestra que, contrario a lo que se esperaba, las variables ``personal.mu``, ``solicitudes.mu``, ``di.urb`` y ``ocupada.ss`` no se ecuentran relacionadas con los niveles de bienestar, pobreza y carencias sociales.
 
 | Matriz de correlación      | Matriz de correlación con coeficientes |
 | ----------- | ----------- |
