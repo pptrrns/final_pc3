@@ -28,12 +28,11 @@ Para la medición de la capacidad estatal a nivel subnacional propongo tomar com
 * ``p15ymas.an`` : Proporción de la población de 15 a 130 años de edad que no saben leer y escribir un recado.
 * ``p15ymas.se`` : Proporción de la población de 15 a 130 años de edad que no aprobaron ningún grado escolar o que sólo tienen nivel preescolar.
 * ``ocupada.ss``: Proporción de la población afiliada a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra) y que tenían trabajo en la semana de referencia.
-
-* Todas la variables están ponderadas a nivel municipal.
+  * Todas las variables están ponderadas a nivel municipal.
 
 *Notas*: Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva.
 
-En la selección de las variables de capacidad estal pretendo aproximar una medida que evite tomar como causa aquello  que busco explicar, ya que eso presupone una relación directa entre los productos y los *outcomes* (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar; sin embargo, es posible que con las variables de extracción este objetivo no se cumpla completamente.
+En la selección de las variables de capacidad estatal pretendo aproximar una medida que evite tomar como causa aquello  que busco explicar, ya que eso presupone una relación directa entre los productos y los *outcomes* (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar; sin embargo, es posible que con las variables de extracción este objetivo no se cumpla completamente.
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 
@@ -43,8 +42,7 @@ Para la medición de los niveles de pobreza, bienestar y carencias sociales prop
   - El Índice permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
 * ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal.
 * ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal.
-
-* Todas la variables están ponderadas a nivel municipal.
+  * Todas las variables están ponderadas a nivel municipal.
 
 ## Análisis de las variables propuestas
 
@@ -94,17 +92,13 @@ sample estimates:
 0.6395396 
 ````
 
-Lo mismo sucede con la variable ``p15ymas.an``, que también se encuentra estrechamente ligada a las variables ``mean.rwi`` y ``pobreza.mu``. La priemera gráfica arroja una correlación de -0.5379949 , y la segunda de 0.7123322. 
+Lo mismo sucede con la variable ``p15ymas.an``, que también se encuentra estrechamente ligada a las variables ``mean.rwi`` y ``pobreza.mu``. La primera gráfica arroja una correlación de -0.5379949, y la segunda de 0.7123322. 
 
 | Relación entre ``p15ymas.an`` y ``mean.rwi``                 | Relación entre ``p15ymas.an`` y ``pobreza.mu``               |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_rplot-05.png?raw=true) | ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_rplot-06.png?raw=true) |
 
-Así pues, a primera vista parece ser que la variable ``mean.rwi`` captura la esencia de los indicadores del CONEVAL sobre pobreza municipal. Esta relación entre ``mean.rwi`` ``pobreza.mu`` se hace más evitente al graficar ambas variables. 
-
-![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_rplot-11.png?raw=true)
-
-Esta relación entre variables arroja un coeficiente de correlación de -0.5966743. 
+Si bien, no fue posible establecer relación entre las variables de capacidad estatal en la dimensión de servicios administrativos con las variables de bienestar y pobreza, fue posible establecer una clara relación entre la variable ``mean.rwi`` y los indicadores del CONEVAL sobre pobreza municipal. Esta relación entre ``mean.rwi`` ``pobreza.mu`` se hace más evidente al graficar ambas variables, lo cual arroja un coeficiente de correlación de -0.5966743. 
 
 ````R
 > cor.test(pobreza.mu, mean.rwi, method = "pearson", use = "complete.obs") # Test de Correlación
@@ -121,18 +115,30 @@ sample estimates:
 -0.5966743 
 ````
 
+Esta correlación es alentadora para las variables que, como el Índice de Riqueza Relativo, se construyen con otras fuentes de datos novedosas. Pareciera que indicadores con data no tradicional reflejan también lo que capturan las variables más tradicionales (e.g.: CONEVAL). Por lo que es posible considerar que para futuras mediciones de pobreza se puedan incorporar indicadores de luminosidad, conectividad, etc., que reflejan actividad económica a la vez que acceso a bienes y servicios necesarios para tener un mejor nivel de vida.
+
+En este mismo sentido, podrían utilizarse a futuro fuentes de datos novedosas para aproximarse a la capacidad estatal, y así dejar de lado aquellos de corte más burocráticos, como el número total de funcionarios o las solicitudes procesadas por cada dependencia.
+
+En todo caso, la siguiente gráfica representa la correlación entre la variable  ``mean.rwi`` y ``opbreza.mu``.
+
+![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3_rplot-11.png?raw=true)
+
 ## Conclusiones
 
+Al inicio del trabajo propuse como línea de investigación que las capacidades estatales a nivel subnacional tomando (municipios y alcaldías) implican menores niveles de pobreza, marginación y carencias sociales; asimismo, propuse como medición de la capacidad estatal variables relacionadas con la administración pública municipal, como el número de funcionarios públicos y las solicitudes atendidas en cada dependencia. Sin embargo, la matriz de correlación no arroja ninguna relación entre tales variables y los niveles de pobreza, por lo que es posible descartarlas como variables explicativas.
 
+En todo caso, las variables de capacidad estatal que son de corte extractivo muestran mejores relaciones con las variables de pobreza y bienestar. Empero, cabe reconocer que tales variables pueden tomar como causa lo que en realidad es el efecto. Es decir, que al comparar ``p15ymas.an`` y ``p15ymas.se`` con ``pobreza.mu`` y `mean.rwi`, en realidad estemos comparando indicadores de un mismo acontecimiento, cayendo así en una trampa analítica.
+
+Ahora bien, el no lograr aproximarnos correctamente a una variable que consiga explicar los niveles de pobreza y marginación social no debe llevarnos a descartar la hipótesis planteada al inicio del trabajo, sino a buscar indicadores que a nivel municipal consigan capturan la capacidad estatal y logren hacerla comparable entre municipios y alcaldías. Esta primera aproximación a la capacidad estatal a nivel subnacional puede abrir una veta de estudio del federalismo mexicano y de los resultados que ha tenido en diferentes partes del territorio nacional.
 
 ## Código
 
 Las gráficas y mapas fueron elaboradas en RStudio. 
-Se puede descargar el código dándo click [aquí](https://github.com/pptrrns/final_pc3/blob/main/final_pc3.R)
+Se puede descargar el código dando clic [aquí](https://github.com/pptrrns/final_pc3/blob/main/final_pc3.R)
 
 ## Mapas dinámicos
 
-Elabore en Carto.DB tres mapas dinámicos (*choropleth map*) en los que mapeo las variables ``mean.rwi``, ``pobreza.mu`` y ``carencias.mu``. En ellos se ve a nivel geográfico la relación entre dichas variables. Se pueden consultar dando click [aquí](https://torrens.carto.com/builder/bd969ec4-292a-426f-99ff-22c2379f0f79/embed)
+Elabore en Carto.DB tres mapas dinámicos (*choropleth map*) en los que mapeo las variables ``mean.rwi``, ``pobreza.mu`` y ``carencias.mu``. En ellos se ve a nivel geográfico la relación entre dichas variables. Se pueden consultar dando clic [aquí](https://torrens.carto.com/builder/bd969ec4-292a-426f-99ff-22c2379f0f79/embed)
 
 ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3.png?raw=true)
 
@@ -152,7 +158,7 @@ UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty 
 * ``phy-mu.csv``: Censo de Población y Vivienda 2020. Datos procesados por: @emagar.
 * ``gobmu-2019.csv``: Censo Nacional de Gobiernos Municipales y Demarcaciones Territoriales de la Ciudad de México. Indicadores de interés 2019. INEGI.
 * ``pobreza.mu-2010.csv``: Indicadores de Pobreza a nivel municipio 2010. CONEVAL.
-* ``dat.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
-* ``dat.pc3.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
+* ``dat.csv``: Base de datos consolidada con las variables de interés. Datos procesados por: jtorrensh.
+* ``dat.pc3.csv``: Base de datos consolidada con las variables de interés. Datos procesados por: jtorrensh.
 
-* Las bases de datos se encuentran el repositorio [final_pc3](https://github.com/pptrrns/final_pc3)
+Las bases de datos se encuentran el repositorio [final_pc3](https://github.com/pptrrns/final_pc3)
