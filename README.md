@@ -47,6 +47,13 @@ Para la medición de los niveles de pobreza, bienestar y carencias sociales prop
 ## Análisis de las variables propuestas
 Un primer análisis de las variables por medio de una amtriz de correlación muestra que, contrario a lo que se esperaba, las variables ``personal.mu``, ``solicitudes.mu``, ``di.urb`` y ``ocupada.ss`` no se ecuentran relacionadas con los niveles de bienestar, pobreza y carencias sociales.
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3.png?raw=true)
+  | ![alt text](https://github.com/pptrrns/final_pc3/blob/main/plots/pc3.png?raw=true)
+        |
+
 ## Código
 Las gráficas y mapas fueron elaboradas en RStudio. 
 Se puede descargar el código dándo click [aquí](https://github.com/pptrrns/final_pc3/blob/main/final_pc3.R)
