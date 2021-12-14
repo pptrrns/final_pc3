@@ -71,3 +71,5 @@ UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty 
 * ``pobreza.mu-2010.csv``: Indicadores de Pobreza a nivel municipio 2010. CONEVAL.
 * ``dat.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
 * ``dat.pc3.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
+
+* Las bases de datos se encuentran el repositorio [final_pc3]()
