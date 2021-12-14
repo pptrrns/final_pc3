@@ -14,7 +14,7 @@ El estudio propuesto busca analizar las capacidades estatales a nivel subnaciona
 
 * robustas capacidades estatales a nivel subnacional y municipal implican menores niveles de pobreza, marginación y carencias sociales.
 
-Es decir, que ahí dónde observemos mejores indicadores sobre la capacidad de despliegue del Estado, observaremos también menores niveles de carencias sociales, y viceversa. 
+Es decir, ahí dónde observemos mejores indicadores sobre la capacidad estatal, observaremos también menores niveles de carencias sociales, y viceversa. 
 
 ## Variables propuestas
 
@@ -49,7 +49,7 @@ Un primer análisis de las variables por medio de una amtriz de correlación mue
 
 ## Código
 Las gráficas y mapas fueron elaboradas en RStudio. 
-Se puede descargar el código dándo click [aquí]()
+Se puede descargar el código dándo click [aquí](https://github.com/pptrrns/final_pc3/blob/main/final_pc3.R)
 
 ## Mapas dinámicos
 Elabore en Carto.DB tres mapas dinámicos (*choropleth map*) en los que mapeo las variables ``mean.rwi``, ``pobreza.mu`` y ``carencias.mu``. En ellos se ve a nivel geográfico la relación entre dichas variables. Se pueden consultar dando click [aquí](https://torrens.carto.com/builder/bd969ec4-292a-426f-99ff-22c2379f0f79/embed)
@@ -65,9 +65,9 @@ Somuano Fernanda, Fernando Nieto. s.a. [Subnational state capacity and civic and
 UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty and Inequality: Structural Change, Social Policy and Politics](https://www.unrisd.org/80256B3C005BCCF9/(httpPublications)/BBA20D83E347DBAFC125778200440AA7?OpenDocument&panel=additional)*, coord. UNRISD. Génova: UNRISD, 2010.
 
 ## Bases de datos
-* ``censo2020-mu.csv``: Censo 2020. @emagar.
-* ``phy-mu.csv``: Censo 2020. @emagar.
-* ``gobmu-2019.csv``: Censo Nacional de Gobiernos Municipales y Demarcaciones Territoriales de la Ciudad de México. Indicadores de interés. INEGI, 2019.
-* ``pobreza.mu-2010.csv``: 
-* ``dat.csv``: Base de datos consolidada con las variables de inetrés.
-* ``dat.pc3.csv``: Base de datos consolidada con las variables de inetrés.
+* ``censo2020-mu.csv``: Censo de Población y Vivienda 2020. Datos procesados por: @emagar.
+* ``phy-mu.csv``: Censo de Población y Vivienda 2020. Datos procesados por: @emagar.
+* ``gobmu-2019.csv``: Censo Nacional de Gobiernos Municipales y Demarcaciones Territoriales de la Ciudad de México. Indicadores de interés 2019. INEGI.
+* ``pobreza.mu-2010.csv``: Indicadores de Pobreza a nivel municipio 2010. CONEVAL.
+* ``dat.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
+* ``dat.pc3.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
