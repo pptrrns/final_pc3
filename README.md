@@ -22,28 +22,28 @@ En la selección de estas variables pretendo aproximar una medida para la capaci
 ### Variables de capacidad estatal
 Para la medición de la capacidad estatal a nivel subnacional propongo tomar como variables:
 
-* ``personal.mu`` :
-* ``solicitudes.mu`` :
-* ``di.urb`` : Distancia en km's al polígono urbano más próximo (Base de datos: ``phys-mu.csv``)
-* ``p15ymas.an`` :
-* ``p15ymas.se`` :
+* ``personal.mu`` : Personal en las instituciones de las administraciones públicas municipales, por municipio o demarcación territorial.
+* ``solicitudes.mu`` : Solicitudes de acceso a la información pública y protección de datos personales atendidas por las instituciones de las administraciones públicas municipales, por municipio o demarcación territorial.
+* ``di.urb`` : Distancia en km's al polígono urbano más próximo.
+* ``p15ymas.an`` : 
+* ``p15ymas.se`` : 
 * ``ocupada.ss``: personas afiliadas a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra)
 
 *Servicios y administración
-Proporción de población alfabetizada mayor de 15 años (**``censo2020-mu.csv``**; ``P15YM_AN``/``P_15YMAS`` y `` P15YM_SE``/``P_15YMAS`` )
+Proporción de población alfabetizada mayor de 15 años ``P15YM_AN``/``P_15YMAS`` y `` P15YM_SE``/``P_15YMAS`` )
 Número de funcionarios públicos per cápita.
 Extracción
-Proporción de población activa en el sector formal (**``censo2020-mu.csv``**; ``PDER_SS``/ ``POCUPADA``).
+Proporción de población activa en el sector formal ``PDER_SS``/ ``POCUPADA``).
 
-Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva del Estado.
+Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva.
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
 
-* ``mean.rwi`` : Índice de riqueza relativa de Facebook (Base de datos: ``phy-mu.csv``).
+* ``mean.rwi`` : Índice de riqueza relativa de Facebook.
     - El RWI permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
-* ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal (Base de datos: ``pobreza.mu-2010.csv``).
-* ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal (Base de datos: ``pobreza.mu-2010.csv``).
+* ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal.
+* ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal.
 
 ## Análisis de las variables propuestas
 
@@ -62,9 +62,9 @@ Somuano Fernanda, Fernando Nieto. s.a. [Subnational state capacity and civic and
 UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty and Inequality: Structural Change, Social Policy and Politics](https://www.unrisd.org/80256B3C005BCCF9/(httpPublications)/BBA20D83E347DBAFC125778200440AA7?OpenDocument&panel=additional)*, coord. UNRISD. Génova: UNRISD, 2010.
 
 ## Bases de datos
-* ``censo2020-mu.csv``: 
-* ``phy-mu.csv``: 
-* ``gobmu-2019.csv``: 
+* ``censo2020-mu.csv``: Censo 2020. @emagar.
+* ``phy-mu.csv``: Censo 2020. @emagar.
+* ``gobmu-2019.csv``: Censo Nacional de Gobiernos Municipales y Demarcaciones Territoriales de la Ciudad de México. Indicadores de interés. INEGI, 2019.
 * ``pobreza.mu-2010.csv``: 
-* ``dat.csv``: 
-* ``dat.pc3.csv``: 
+* ``dat.csv``: Base de datos consolidada con las variables de inetrés.
+* ``dat.pc3.csv``: Base de datos consolidada con las variables de inetrés.
