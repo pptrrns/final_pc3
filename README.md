@@ -40,16 +40,16 @@ Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capaci
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
 
-* ``mean.rwi`` : Índice de riqueza relativa de Facebook (RWI). 
- * El RWI permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
-* ``pobreza.mu`` : 
-* ``carencias.mu`` : 
+* ``mean.rwi`` : Índice de riqueza relativa de Facebook (Base de datos: ``phy-mu.csv``).
+    - El RWI permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
+* ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal (Base de datos: ``pobreza.mu-2010.csv``).
+* ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal (Base de datos: ``pobreza.mu-2010.csv``).
 
 ## Análisis de las variables propuestas
 
 
 ## Código
-Las gráficas y mapas fueron elaboradas en RStudio. Se puede descargar el código dándo click *[aquí]()*
+Las gráficas y mapas fueron elaboradas en RStudio. Se puede descargar el código dándo click [aquí]()
 
 ## Bibliografía
 
