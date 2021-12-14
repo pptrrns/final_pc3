@@ -17,32 +17,39 @@ El estudio propuesto busca analizar las capacidades estatales a nivel subnaciona
 Es decir, que ahí dónde observemos mejores indicadores sobre la capacidad de despliegue del Estado, observaremos también menores niveles de carencias sociales, y viceversa. 
 
 ## Variables propuestas
+En la selección de estas variables pretendo aproximar una medida para la capacidad estatal, así como  "evitar desarrollar un esquema de medición que se base en los *outcomes* de cualquier programa estatal (…), ya que eso presupone una relación directa entre los productos y los *outcomes*." (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar, como ``VPH_AGUAFV ``, ``VPH_S_ELEC `` o `VPH_PISOTI` , ya que  implicaría pasar esas variables como la causa de las mismas.
 
 ### Variables de capacidad estatal
 Para la medición de la capacidad estatal a nivel subnacional propongo tomar como variables:
 
+* ``personal.mu`` :
+* ``solicitudes.mu`` :
+* ``di.urb`` : Distancia en km's al polígono urbano más próximo (Base de datos: ``phys-mu.csv``)
+* ``p15ymas.an`` :
+* ``p15ymas.se`` :
+* ``ocupada.ss``: personas afiliadas a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra)
+
 *Servicios y administración
 Proporción de población alfabetizada mayor de 15 años (**``censo2020-mu.csv``**; ``P15YM_AN``/``P_15YMAS`` y `` P15YM_SE``/``P_15YMAS`` )
 Número de funcionarios públicos per cápita.
-
 Extracción
 Proporción de población activa en el sector formal (**``censo2020-mu.csv``**; ``PDER_SS``/ ``POCUPADA``).
-Distancia en km's al polígono urbano más próximo (**``phys-mu.csv``**; ``di.urb ``).
 
-Tanto como recogen la dimensión extractiva del Estado y la dimensión de un Estado funcional en términos administrativos y de servicios.
+Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva del Estado.
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
 
-*
-*
-*
-  * El *Índice de riqueza relativa* permite predecir el nivel de vida relativo de cada país en función de datos de conectividad en los que se protege la privacidad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
-
-
-En la selección de estas variables pretendo aproximar una medida para la capacidad estatal, así como  "evitar desarrollar un esquema de medición que se base en los *outcomes* de cualquier programa estatal (…), ya que eso presupone una relación directa entre los productos y los *outcomes*." (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar, como ``VPH_AGUAFV ``, ``VPH_S_ELEC `` o `VPH_PISOTI` , ya que  implicaría pasar esas variables como la causa de las mismas.
+* ``mean.rwi`` : Índice de riqueza relativa de Facebook (RWI). 
+ * El RWI permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
+* ``pobreza.mu`` : 
+* ``carencias.mu`` : 
 
 ## Análisis de las variables propuestas
+
+
+## Código
+Las gráficas y mapas fueron elaboradas en RStudio. Se puede descargar el código dándo click *[aquí]()*
 
 ## Bibliografía
 
@@ -55,3 +62,9 @@ Somuano Fernanda, Fernando Nieto. s.a. [Subnational state capacity and civic and
 UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty and Inequality: Structural Change, Social Policy and Politics](https://www.unrisd.org/80256B3C005BCCF9/(httpPublications)/BBA20D83E347DBAFC125778200440AA7?OpenDocument&panel=additional)*, coord. UNRISD. Génova: UNRISD, 2010.
 
 ## Bases de datos
+* ``censo2020-mu.csv``: 
+* ``phy-mu.csv``: 
+* ``gobmu-2019.csv``: 
+* ``pobreza.mu-2010.csv``: 
+* ``dat.csv``: 
+* ``dat.pc3.csv``: 
