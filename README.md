@@ -54,7 +54,9 @@ Se puede descargar el código dándo click [aquí](https://github.com/pptrrns/fi
 ## Mapas dinámicos
 Elabore en Carto.DB tres mapas dinámicos (*choropleth map*) en los que mapeo las variables ``mean.rwi``, ``pobreza.mu`` y ``carencias.mu``. En ellos se ve a nivel geográfico la relación entre dichas variables. Se pueden consultar dando click [aquí](https://torrens.carto.com/builder/bd969ec4-292a-426f-99ff-22c2379f0f79/embed)
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://media.giphy.com/media/8X7juJQEMiF292rsIC/giphy.gif)
+
+<iframe src="https://giphy.com/embed/8X7juJQEMiF292rsIC" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/8X7juJQEMiF292rsIC">via GIPHY</a></p>
 
 ## Bibliografía
 
