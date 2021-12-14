@@ -38,18 +38,16 @@ Para la medición de la capacidad estatal a nivel subnacional propongo tomar com
 En la selección de las variables de capacidad estatal pretendo aproximar una medida que evite tomar como causa aquello  que busco explicar, ya que eso presupone una relación directa entre los productos y los *outcomes* (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar; sin embargo, es posible que con las variables de extracción este objetivo no se cumpla completamente.
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
-
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
 
 * ``mean.rwi`` : Índice de riqueza relativa de Facebook.
-  - El Índice permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
+    - El Índice permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
 * ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal.
 * ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal.
-  * Todas las variables están ponderadas a nivel municipal.
+    * Todas las variables están ponderadas a nivel municipal.
 
 
 ## Análisis de las variables propuestas
-
 Un primer análisis de las variables por medio de una matriz de correlación muestra que, contrario a lo que se esperaba, las variables que tomé para aproximarme a la capacidad estatal en la dimensión de servicios administrativos y de infraestructura (``personal.mu``, ``solicitudes.mu``, ``di.urb`` y ``ocupada.ss``) no están relacionadas con los niveles de bienestar, pobreza y carencias sociales; mientras que las variables de capacidad estatal en la dimensión extractiva sí lo están.
 
 | Matriz de correlación                                        | Matriz de correlación con coeficientes                       |
