@@ -72,4 +72,4 @@ UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty 
 * ``dat.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
 * ``dat.pc3.csv``: Base de datos consolidada con las variables de inetrés. Datos procesados por: jtorrensh.
 
-* Las bases de datos se encuentran el repositorio [final_pc3]()
+* Las bases de datos se encuentran el repositorio [final_pc3](https://github.com/pptrrns/final_pc3)
