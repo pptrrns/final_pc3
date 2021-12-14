@@ -38,23 +38,17 @@ Para la comparación del ranking de capacidades estatales a nivel subnacional y 
 
 Además del comparativo entre estos dos indicadores, también se harán gráficas comparando variables de capacidad estatal con variables de niveles de bienestar, y de confirmarse el supuesto planteado, se seleccionaran municipios para realizar un análisis comparativo.
 
-## Primer análisis exploratorio de datos
+## Variables propuestas
 
-Realicé un primer primer análisis de la variable `mean.rwi` agrupando dicha variable por entidad federativa en la variable ``mean.rwi.ed`` de la base de datos **``censo2020-edo.csv``**. 
+### Variables de capacidad estatal
 
-Con la variable agrupada a nivel estatal hice dos mapas coropléticos, en los cuales se observa que Guerrero, Oaxaca, San Luis Potosí, Nayarit, Durango, Tabasco, Campeche, Zacatecas, Veracruz, Sinaloa, Coahuila, Michoacán y Colima se encuentran en los niveles más bajos de bienestar, mientras que la Ciudad de México, Tlaxcala, México, Baja California, Morelia, Aguascalientes, Nuevo León, Quintana Roo, Yucatán y Sonora en las posiciones más altas. El intervalo del *Índice de riqueza relativa* promediado a nivel estatal tiene un intervalo que va de [–0.2879 hasta 1.1101], siendo Oaxaca el más bajo y la Ciudad de México el más alto. El promedio nacional es de 0.07349773.
+### variables de pobreza, carencias sociales y niveles de bienestar
 
-## Bibliografía revisada
+## Análisis de las variables propuestas
 
-Días Cayeros Alberto, Estévez Federico, Beatriz Magaloni. The Political Logic of Poverty Relief. New York: Cambridge University Press, 2016.
+## Bibliografía
 
 Jha, Himanshu. 2021. Developing State Capacity in a Weak State, en *[Building State Capability: Blog](https://buildingstatecapability.com/2021/08/22/developing-state-capacity-in-a-weak-state/)*, Harvard’s Center for International Development.
-
-Lajous, Andrés. 2021. Ranking subnational state capacity in Mexico, en *[Andrés Lajous Blog](https://scholar.princeton.edu/alajous/blog/ranking-subnational-state-capacity-mexico)*, The Trustees of Princeton University.
-
-Magar, Eric. 2021. Trabajo final pc3, en *[Github](https://github.com/emagar/pc3/tree/master/final)*, ITAM: emagar.
-
-Mosley, Paul. "Institutions, state capacity, and poverty", en *[The Politics of Poverty Reduction](https://oxford.universitypressscholarship.com/view/10.1093/acprof:oso/9780199692125.001.0001/acprof-9780199692125)*, coord. Paul Mosley. Oxford Scholarship Online: May 2012.
 
 Soifer, David Hillel. 2010. Measuring state capacity in contemporary Latin America, en *Revista de Ciencia Política*, vol. 32, no. 3, 585–598. [doi.org/10.4067/S0718-090X2012000300004](http://dx.doi.org/10.4067/S0718-090X2012000300004 )
 
@@ -62,7 +56,7 @@ Somuano Fernanda, Fernando Nieto. s.a. [Subnational state capacity and civic and
 
 UNRISD. "Building State Capacity for Poverty Reduction", en *[Combating Poverty and Inequality: Structural Change, Social Policy and Politics](https://www.unrisd.org/80256B3C005BCCF9/(httpPublications)/BBA20D83E347DBAFC125778200440AA7?OpenDocument&panel=additional)*, coord. UNRISD. Génova: UNRISD, 2010.
 
-Facebook. 2021. Índice de riqueza relativa. *[Facebook: Data For Good](https://dataforgood.facebook.com/dfg/tools/relative-wealth-index)*.
+## Bases de datos
 
 [^1]: Si bien nos aproximamos a la capacidad estatal con variables de los tres niveles de administración pública, el *ranking* es sensible solamente al tipo de datos que tienen un impacto concreto a nivel local (*e.g.:* tasa de población vacunada). (Nota: agregué variables que a mi consideración podrían servir para arrojar resultados más precisos sobre la capacidad estatal)
 [^2]: En el caso de las variables de infraestructura no es posible ponderar.
