@@ -24,21 +24,15 @@ Para la medición de la capacidad estatal a nivel subnacional propongo tomar com
 * ``personal.mu`` : Personal en las instituciones de las administraciones públicas municipales, por municipio o demarcación territorial.
 * ``solicitudes.mu`` : Solicitudes de acceso a la información pública y protección de datos personales atendidas por las instituciones de las administraciones públicas municipales, por municipio o demarcación territorial.
 * ``di.urb`` : Distancia en km's al polígono urbano más próximo.
-* ``p15ymas.an`` : 
-* ``p15ymas.se`` : 
-* ``ocupada.ss``: Proporción de población afiliada a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra) y que 
+* ``p15ymas.an`` : Proporción de la población de 15 a 130 años de edad que no saben leer y escribir un recado.
+* ``p15ymas.se`` : Proporción de la población de 15 a 130 años de edad que no aprobaron ningún grado escolar o que sólo tienen nivel preescolar.
+* ``ocupada.ss``: Proporción de la población afiliada a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra) y que tenían trabajo en la semana de referencia.
 
 * Todas la variables están ponderadas a nivel municipal.
 
 *Notas*: Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva.
 
 En la selección de las variables de capacidad estal pretendo aproximar una medida que evite tomar como causa aquello  que busco explicar, ya que eso presupone una relación directa entre los productos y los *outcomes* (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar; sin embargo, es posible que con las variables de extracción este objetivo no se cumpla completamente.
-
-P15YM_AN
-P_15YMAS
-P15YM_SE
-P_15YMAS
-POCUPADA
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
