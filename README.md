@@ -17,7 +17,6 @@ El estudio propuesto busca analizar las capacidades estatales a nivel subnaciona
 Es decir, que ahí dónde observemos mejores indicadores sobre la capacidad de despliegue del Estado, observaremos también menores niveles de carencias sociales, y viceversa. 
 
 ## Variables propuestas
-En la selección de estas variables pretendo aproximar una medida para la capacidad estatal, así como  "evitar desarrollar un esquema de medición que se base en los *outcomes* de cualquier programa estatal (…), ya que eso presupone una relación directa entre los productos y los *outcomes*." (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar, como ``VPH_AGUAFV ``, ``VPH_S_ELEC `` o `VPH_PISOTI` , ya que  implicaría pasar esas variables como la causa de las mismas.
 
 ### Variables de capacidad estatal
 Para la medición de la capacidad estatal a nivel subnacional propongo tomar como variables:
@@ -27,21 +26,20 @@ Para la medición de la capacidad estatal a nivel subnacional propongo tomar com
 * ``di.urb`` : Distancia en km's al polígono urbano más próximo.
 * ``p15ymas.an`` : 
 * ``p15ymas.se`` : 
-* ``ocupada.ss``: personas afiliadas a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra)
+* ``ocupada.ss``: Proporción de población afiliada a servicios médicos en alguna institución de salud pública o privada (IMSS; ISSSTE e ISSSTE estatal; PEMEX; SEDENA; SEMAR; INSABI u otra) y que 
 
-*Servicios y administración
 Proporción de población alfabetizada mayor de 15 años ``P15YM_AN``/``P_15YMAS`` y `` P15YM_SE``/``P_15YMAS`` )
-Número de funcionarios públicos per cápita.
-Extracción
-Proporción de población activa en el sector formal ``PDER_SS``/ ``POCUPADA``).
+``PDER_SS``/ ``POCUPADA``
 
-Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva.
+*Notas*: Las variables ``personal.mu``, ``solicitudes.mu`` y ``di.urb`` recogen la capacidad del Estado en la provisión de servicios administrativos y de infraestructura, mientras que ``p15ymas.an``, ``p15ymas.se`` y ``ocupada.ss`` la capacidad extractiva.
+
+En la selección de las variables de capacidad estal pretendo aproximar una medida que evite tomar como causa aquello  que busco explicar, ya que eso presupone una relación directa entre los productos y los *outcomes* (Soifer, 2010). Por tanto, no considero  variables relacionadas con el nivel de bienestar; sin embargo, es posible que con las variables de extracción este objetivo no se cumpla completamente.
 
 ### Variables de pobreza, carencias sociales y niveles de bienestar
 Para la medición de los niveles de pobreza, bienestar y carencias sociales propongo tomar como variables:
 
 * ``mean.rwi`` : Índice de riqueza relativa de Facebook.
-    - El RWI permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
+    - El Índice permite predecir el nivel de vida relativo de cada país en función de datos de conectividad, imágenes satelitales y otras fuentes de datos novedosas (Facebook, 2021).
 * ``pobreza.mu`` : Proporción de la población en situación de pobreza a nivel municipal.
 * ``carencias.mu`` : Proporción de la población vulnerable por carencias sociales a nivel municipal.
 
