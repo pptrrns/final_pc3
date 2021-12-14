@@ -54,6 +54,8 @@ Se puede descargar el código dándo click [aquí](https://github.com/pptrrns/fi
 ## Mapas dinámicos
 Elabore en Carto.DB tres mapas dinámicos (*choropleth map*) en los que mapeo las variables ``mean.rwi``, ``pobreza.mu`` y ``carencias.mu``. En ellos se ve a nivel geográfico la relación entre dichas variables. Se pueden consultar dando click [aquí](https://torrens.carto.com/builder/bd969ec4-292a-426f-99ff-22c2379f0f79/embed)
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
 ## Bibliografía
 
 Jha, Himanshu. 2021. Developing State Capacity in a Weak State, en *[Building State Capability: Blog](https://buildingstatecapability.com/2021/08/22/developing-state-capacity-in-a-weak-state/)*, Harvard’s Center for International Development.
